@@ -1,0 +1,18 @@
+# Copy this file to .env.local in the project root
+# Frontend Environment Variables
+
+# Stripe Configuration
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_51RJ9TqIXljbVNKiT1KRkONB9dRiBtmL9EDBvEUv8aF2PRGHWrKNMdjL7sCfjGJ5t33NjTdvrLRar9OZ7Jk59rqlh00pC4cUEmL
+
+# Stripe Price IDs (Create products in Stripe Dashboard first)
+# Go to: https://dashboard.stripe.com/test/products
+# Create "Setup" product ($1000 one-time) and copy Price ID
+NEXT_PUBLIC_STRIPE_SETUP_PRICE_ID=price_YOUR_SETUP_PRICE_ID_HERE
+
+# Create "Monthly Retainer" product ($400/month recurring) and copy Price ID
+NEXT_PUBLIC_STRIPE_MONTHLY_PRICE_ID=price_YOUR_MONTHLY_PRICE_ID_HERE
+
+# API Configuration
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:8000/api
+
